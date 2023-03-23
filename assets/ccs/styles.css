@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;400&family=Trochut&display=swap');
+
+body {
+    background-image: url("../imgs/fondo.jpg" );
+    background-size:cover;
+    background-position:center;
+    background-repeat: space;
+    margin:auto;
+    
+    
+}
+
+.header{
+    background-image: url(../imgs/head.png);
+    background-color:grey;
+    background-size:auto;
+    background-position: center;
+    background-repeat: repeat-x;
+    padding: 2rem;
+    margin-bottom: 3rem;
+
+}
+
+.header h1{ font-family:"Alegreya Sans SC", Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    color: beige;
+text-align: center;}
+
+h2 { font-family:"Alegreya Sans SC", Arial, Helvetica, sans-serif;
+text-align: center;
+color:black
+}
+
+h3 { 
+    font-family:"Alegreya Sans SC", Arial, Helvetica, sans-serif;
+   
+    text-align: center;
+color:black}
+p {  
+    font-family:"Alegreya Sans SC", Arial, Helvetica, sans-serif;
+    text-align: center;
+color:black}
+
+.products table{ margin: 5rem;}
+   
+
+.products thead {font-family:"Alegreya Sans SC", Arial, Helvetica, sans-serif}
+
+.products img{height: 40%; width: 60%;}
+
+.footer{ background-color: rgb(202, 201, 201);padding: 1rem; text-align: center; font-family:"Alegreya Sans SC", Arial, Helvetica, sans-serif; }
+.footer a{ text-decoration:none; color: black; font-size: 1rem;}
+.footer img {width: 1rem;;}
